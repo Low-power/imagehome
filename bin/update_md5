@@ -49,5 +49,5 @@ function ldir($path,$depth,$check) {
 	}
 }
 ldir($path, 0, $argc > 1 && $argv[1] == "--check");
-echo "All work complated.\n";
+echo "All work completed.\n";
 ?>
